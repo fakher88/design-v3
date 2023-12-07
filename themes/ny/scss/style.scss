@@ -1,0 +1,72 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+
+body {
+    background-color: $background-color;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+* {
+    color: $font-color;
+    font-family: 'Montserrat', sans-serif;
+}
+// Adding margin to the left of the logo
+.header {
+    width: 100%;
+    background-color: $header-background;
+    display: inline-flex;
+    border-bottom: double $bord-color 2px;
+}
+
+.site-header img {
+    margin-left: $margin-left-logo;
+    max-width: 25%;
+}
+  
+// Adding max-width and centering the container
+.container {
+    max-width: $max-width-container;
+    margin: 10px auto;
+}
+  
+// Adding margin and padding to the footer
+.footer {
+    background-color: $footer-background;
+    margin: $margin-padding-footer;
+    padding: $padding-top-bottom-footer 0;
+    border-top: double $bord-color 2px;
+    color: $font-alternative-color;
+}
+
+
+p img {
+    height: 400px;
+    width: 500px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid $img-bord-color;
+}
+
+.main {
+    padding: 10px;
+    border: 1px solid $main-borde-color;
+    margin-inline: 30em;
+    background: #117687;
+}

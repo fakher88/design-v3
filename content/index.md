@@ -5,6 +5,7 @@ Description: This is our index page.
 
 About me
 ==========================
+
 !["me"](assets/img/me.jpg "Me")
 
 Hej,
@@ -18,3 +19,5 @@ Trots att jag inte har någon tidigare erfarenhet eller kunskap inom IT, har jag
 Jag finner det fascinerande att kunna skapa och lösa problem med kod.
 
 Det är en ny och rolig väg som jag utforskar och jag ser fram emot att utvecklas inom detta område.
+
+    
